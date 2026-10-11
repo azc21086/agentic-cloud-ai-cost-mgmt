@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GovernanceObjectModelOutput",
+  "type": "object",
+  "required": [
+    "event",
+    "causal_factors",
+    "financial_impact",
+    "recommended_action",
+    "confidence"
+  ],
+  "properties": {
+    "event": {
+      "type": "string"
+    },
+    "causal_factors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "factor",
+          "evidence_ref",
+          "share"
+        ],
+        "properties": {
+          "factor": {
+            "type": "string"
+          },
+          "evidence_ref": {
+            "type": "string",
+            "enum": [
+              "spend_series",
+              "usage_series",
+              "forecast_interval",
+              "policy"
+            ]
+          },
+          "share": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "financial_impact": {
+      "type": "object",
+      "required": [
+        "value_usd_per_week",
+        "low",
+        "high"
+      ],
+      "properties": {
+        "value_usd_per_week": {
+          "type": "number",
+          "minimum": 0
+        },
+        "low": {
+          "type": "number",
+          "minimum": 0
+        },
+        "high": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "recommended_action": {
+      "type": "object",
+      "required": [
+        "class"
+      ],
+      "properties": {
+        "class": {
+          "type": "string",
+          "enum": [
+            "no_action",
+            "send_alert",
+            "recalculate_baseline",
+            "stop_idle_resource",
+            "rightsize_instance",
+            "apply_budget_cap",
+            "purchase_commitment"
+          ]
+        },
+        "params": {
+          "type": "object"
+        }
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "rationale": {
+      "type": "string"
+    }
+  }
+}

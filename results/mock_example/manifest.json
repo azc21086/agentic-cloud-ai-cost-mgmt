@@ -1,0 +1,73 @@
+{
+  "package_version": "1.0.0",
+  "config": {
+    "families": [
+      "steady",
+      "volatile",
+      "growth",
+      "lumpy"
+    ],
+    "n_seeds": 20,
+    "base_seed": 1000,
+    "n_days": 120,
+    "n_waste_events": 6,
+    "n_benign_events": 3,
+    "policy": {
+      "tau_impact_usd": 5000.0,
+      "tau_conf": 0.8,
+      "auto_actions": [
+        "no_action",
+        "recalculate_baseline",
+        "send_alert"
+      ],
+      "period_days": 7,
+      "impact_ratio_tolerance": 2.0,
+      "consistency_tolerance": 0.3,
+      "unsupported_factor_penalty": 0.15,
+      "share_sum_tolerance": 0.15
+    },
+    "residual": {
+      "min_train_days": 28,
+      "window_days": 42,
+      "refit_every": 7,
+      "z_thresh": 3.5,
+      "spike_z": 1000000000.0,
+      "persistence": 2,
+      "min_abs_excess_usd": 25.0,
+      "min_rel_excess": 0.1,
+      "scale_floor_abs": 10.0,
+      "scale_floor_rel": 0.03,
+      "use_usage": true
+    },
+    "threshold": {
+      "window_days": 14,
+      "pct": 0.3,
+      "min_abs_excess_usd": 25.0
+    },
+    "economics": {
+      "human_triage_days": 3.0,
+      "review_days": 1.0,
+      "kappa_review_usd": 50.0,
+      "kappa_alert_usd": 5.0,
+      "disruption_cost_usd": 2000.0,
+      "reviewer_accuracy": 1.0
+    },
+    "llm": {
+      "provider": "mock",
+      "model": "gpt-4o-mini",
+      "base_url": null,
+      "temperature": 0.0,
+      "seed": null,
+      "repeats": 1,
+      "max_calls": null,
+      "cache_path": null,
+      "mock_fault_rate": 0.15
+    }
+  },
+  "config_digest": "e408834b1b34",
+  "prompt_ref": "decision_record_v1:566566f851bd5cbb",
+  "llm_model": "mock-reasoner-v1",
+  "live_llm_calls": 1169,
+  "cache_hits": 0,
+  "n_runs": 80
+}

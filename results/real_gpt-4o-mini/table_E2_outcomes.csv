@@ -1,0 +1,5 @@
+Method,"Waste incurred, USD/run",Human reviews or triages/run,Disruptive actions executed/run,Harmful automatic actions/run (disruptive or masking),Wrong-auto rate,"Total cost J, USD/run"
+Fixed-threshold alert (human triage),"9731 [7904, 11558]","88.2 [53.7, 122.7]","0.00 [0.00, 0.00]","0.00 [0.00, 0.00]",n/a (no autonomous action),"14141 [11535, 16747]"
+Forecast-residual alert (human triage),"12997 [9575, 16420]","15.0 [9.4, 20.6]","0.00 [0.00, 0.00]","0.00 [0.00, 0.00]",n/a (no autonomous action),"13747 [10355, 17140]"
+"Agent, ungoverned (executes every proposal)","12806 [9270, 16343]","0.0 [0.0, 0.0]","6.70 [3.50, 9.90]","6.95 [3.59, 10.31]","46.3% [40.8, 52.0] (n=300)","26206 [18032, 34381]"
+"Agent, governed (validation + routing rule)","9940 [7056, 12825]","12.3 [7.4, 17.2]","0.00 [0.00, 0.00]","0.10 [-0.04, 0.24]","3.7% [1.0, 12.5] (n=54)","10569 [7640, 13497]"

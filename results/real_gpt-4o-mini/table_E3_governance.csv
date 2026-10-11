@@ -1,0 +1,12 @@
+Measure,Value
+Decisions evaluated,300
+Schema and business-rule valid,"97.3% [94.8, 98.6] (n=300)"
+Routed AUTO,"18.0% [14.1, 22.7] (n=300)"
+Routed REVIEW,"79.3% [74.4, 83.5] (n=300)"
+Routed REJECT,"2.7% [1.4, 5.2] (n=300)"
+Action matches ground truth (valid records),"50.7% [45.0, 56.4] (n=292)"
+Brier score of final confidence (valid records),0.284
+Repeat-run agreement,"72.0% [66.7, 76.8] (n=300)"
+Material-autonomy violations (property i; must be 0),0
+"Mean latency per decision, s",2.49
+Mean tokens per decision (in/out),758 / 205

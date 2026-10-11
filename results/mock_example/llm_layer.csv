@@ -1,0 +1,81 @@
+family,seed,decisions,valid,consistent,action_correct,action_n,brier_sum,faults,faults_by_type,latency_sum,tokens_in,tokens_out
+steady,1000,7,7,7,6,7,1.11958929,0,{},0.0,0,0
+steady,1001,10,10,10,10,10,0.6058996200000001,0,{},0.0,0,0
+steady,1002,10,7,10,5,7,0.915,4,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1003,7,6,7,5,6,1.0284000000000002,1,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1004,8,8,8,5,8,2.76118525,2,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}}",0.0,0,0
+steady,1005,10,9,10,9,9,0.25652564000000005,1,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1006,8,7,8,7,7,0.19120404,1,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1007,9,9,9,8,9,0.28769325,1,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+steady,1008,8,7,8,5,7,0.08245841000000002,2,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1009,6,6,6,6,6,0.12545625000000005,1,"{""unsupported_factor"": {""AUTO"": 1, ""REVIEW"": 0, ""REJECT"": 0}}",0.0,0,0
+steady,1010,5,4,5,3,4,0.9271,1,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1011,7,7,7,7,7,0.01750000000000003,0,{},0.0,0,0
+steady,1012,7,4,7,4,4,0.010000000000000018,3,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1013,7,7,7,5,7,1.9725000000000001,0,{},0.0,0,0
+steady,1014,8,7,8,7,7,0.04060000000000003,1,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1015,7,7,7,7,7,0.048500000000000036,0,{},0.0,0,0
+steady,1016,5,5,5,5,5,0.3727423299999999,0,{},0.0,0,0
+steady,1017,8,6,8,5,6,0.9495562500000002,3,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+steady,1018,9,8,9,6,8,1.8224,1,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+steady,1019,7,6,7,5,6,0.41239366,1,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1000,8,8,8,8,8,0.63167185,0,{},0.0,0,0
+volatile,1001,8,5,8,4,5,0.4527567,4,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+volatile,1002,7,7,7,6,7,0.6541833000000001,0,{},0.0,0,0
+volatile,1003,5,5,5,5,5,0.33944681,0,{},0.0,0,0
+volatile,1004,10,10,10,6,10,2.37390142,1,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+volatile,1005,5,5,5,4,5,1.3793734400000002,0,{},0.0,0,0
+volatile,1006,10,9,10,6,9,2.16860338,1,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1007,10,9,10,7,9,1.66871316,1,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1008,9,6,9,5,6,0.83285625,4,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+volatile,1009,8,7,8,5,7,1.51707385,1,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1010,9,7,9,5,7,1.42637345,4,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}}",0.0,0,0
+volatile,1011,9,6,9,5,6,1.1866046399999999,3,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1012,8,7,8,7,7,0.8327789000000001,1,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1013,7,4,7,3,4,0.5876765599999999,4,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1014,11,10,11,7,10,1.9635732099999998,2,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1015,10,8,10,6,8,1.47728733,2,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1016,6,5,6,4,5,0.8184384400000002,1,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+volatile,1017,8,6,8,4,6,1.5153404099999999,3,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+volatile,1018,8,8,8,8,8,0.67333062,1,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+volatile,1019,6,4,6,2,4,1.8603999999999998,2,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1000,9,7,9,5,7,1.83533812,2,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1001,8,5,8,2,5,0.6831254499999999,3,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}}",0.0,0,0
+growth,1002,11,11,11,8,11,0.8206066700000002,2,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}}",0.0,0,0
+growth,1003,9,9,9,6,9,1.9364133300000002,0,{},0.0,0,0
+growth,1004,9,7,9,3,7,3.62716609,2,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1005,8,8,8,7,8,0.9452753100000001,0,{},0.0,0,0
+growth,1006,10,10,10,7,10,2.38614093,1,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+growth,1007,9,6,9,4,6,0.49899520999999997,4,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1008,8,5,8,4,5,0.9773644899999999,3,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1009,11,10,11,9,10,0.5924697099999999,1,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1010,8,7,8,7,7,0.40574340999999997,1,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1011,8,7,8,5,7,2.17929045,1,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1012,10,9,10,8,9,0.5217914600000001,1,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1013,7,7,7,7,7,0.7211779500000001,0,{},0.0,0,0
+growth,1014,10,10,10,8,10,0.37149704000000006,2,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}}",0.0,0,0
+growth,1015,8,5,8,3,5,1.8920009999999998,4,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+growth,1016,11,11,11,8,11,1.3877167900000003,1,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+growth,1017,11,11,11,6,11,3.80795804,1,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+growth,1018,9,8,9,6,8,1.67985205,1,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+growth,1019,8,7,8,7,7,0.5298062500000004,1,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1000,33,28,33,17,28,4.350591420000001,9,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}}",0.0,0,0
+lumpy,1001,34,29,34,12,29,7.182677460000001,7,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1002,40,36,40,14,36,11.442937,7,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 3}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1003,38,33,38,16,33,6.63194728,7,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 3}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}}",0.0,0,0
+lumpy,1004,29,24,29,11,24,7.5964498,6,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1005,34,32,34,18,32,7.21229331,3,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unsupported_factor"": {""AUTO"": 1, ""REVIEW"": 0, ""REJECT"": 0}}",0.0,0,0
+lumpy,1006,22,21,22,14,21,3.6969023099999996,3,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1007,41,39,41,20,39,10.522654440000002,7,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 3, ""REJECT"": 0}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1008,33,33,33,12,33,9.593936730000001,3,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}}",0.0,0,0
+lumpy,1009,39,36,39,14,36,10.106263809999998,8,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 3, ""REJECT"": 0}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1010,28,23,28,9,23,6.1555923,6,"{""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1011,35,29,35,10,29,9.27474372,8,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 3}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 3}}",0.0,0,0
+lumpy,1012,24,23,24,12,23,5.651560620000001,1,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1013,32,27,32,13,27,6.067470300000001,6,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}}",0.0,0,0
+lumpy,1014,27,23,27,15,23,4.46546839,5,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 1, ""REJECT"": 0}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1015,30,25,30,13,25,5.19537815,8,"{""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 3, ""REJECT"": 0}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1016,42,37,42,19,37,8.01112494,9,"{""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""overconfident_misdiagnosis"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1017,39,36,39,19,36,8.14161275,3,"{""unknown_action"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 2}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}}",0.0,0,0
+lumpy,1018,33,31,33,18,31,7.382880350000001,3,"{""missing_field"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""unsupported_factor"": {""AUTO"": 1, ""REVIEW"": 0, ""REJECT"": 0}}",0.0,0,0
+lumpy,1019,39,35,39,15,35,8.53662922,6,"{""unsupported_factor"": {""AUTO"": 0, ""REVIEW"": 2, ""REJECT"": 0}, ""impact_distorted"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 1}, ""invalid_json"": {""AUTO"": 0, ""REVIEW"": 0, ""REJECT"": 3}}",0.0,0,0

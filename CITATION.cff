@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "gcsi-governance: reference implementation of a bounded-autonomy decision system for cloud financial governance"
+authors:
+  - family-names: Chopra
+    given-names: Ankit
+    orcid: "https://orcid.org/0009-0003-2572-2050"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/azc21086/agentic-cloud-ai-cost-mgmt"

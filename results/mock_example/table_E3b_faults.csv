@@ -1,0 +1,7 @@
+Injected fault,AUTO,REVIEW,REJECT,Harmful action auto-executed
+impact_distorted,0,0,34,0
+invalid_json,0,0,38,0
+missing_field,0,0,35,0
+overconfident_misdiagnosis,0,31,0,0
+unknown_action,0,0,29,0
+unsupported_factor,3,34,0,0
