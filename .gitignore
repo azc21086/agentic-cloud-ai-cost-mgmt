@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+*.egg-info/
+results/*
+!results/.gitkeep
+!results/real_gpt-4o-mini/
+!results/mock_example/
+.pytest_cache/
+llm_cache*.jsonl
+!results/real_gpt-4o-mini/llm_cache.jsonl
